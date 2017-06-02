@@ -123,7 +123,7 @@ describe('extendDefaultFields', function () {
           })
       })
         .catch(function (err) {
-          assert.of(!err, "Failed to sync the database")
+          assert.of(!err, 'Failed to sync the database')
         })
     })
   })
@@ -202,7 +202,7 @@ describe('#clearExpiredSessions()', function () {
 
           store.length(function (err, c) {
             assert.ok(!err, '#length() got an error')
-            assert.equal(0, c, "the expired session wasn't deleted")
+            assert.equal(0, c, 'the expired session wasn\'t deleted')
             done()
           })
         })
