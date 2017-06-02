@@ -25,7 +25,7 @@
     "standard": "^8.2.0"
   },
   "peerDependencies": {
-    "sequelize": ">= 3.24.5"
+    "sequelize": ">= 4.0.0-2"
   },
   "engines": {
     "node": "*"
