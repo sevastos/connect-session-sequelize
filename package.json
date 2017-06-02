@@ -20,12 +20,12 @@
   "devDependencies": {
     "express-session": "^1.10.3",
     "mocha": "^3.0.0",
-    "sequelize": ">=3.24.5",
+    "sequelize": ">=4.0.0-2",
     "sqlite3": "^3.1.4",
     "standard": "^8.2.0"
   },
   "peerDependencies": {
-    "sequelize": ">= 4.0.0-2"
+    "sequelize": ">=4.0.0-2"
   },
   "engines": {
     "node": "*"
